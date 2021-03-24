@@ -15,6 +15,6 @@ fn thread_or_main_thread() {
 fn main(){
 thread_or_main_thread();
 println!("Function execution finished ...");
-
+//this is diffrent
 thread::sleep(Duration::from_millis(100));             // wait for threads to finish (function does not wait)
 }
